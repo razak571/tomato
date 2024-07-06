@@ -1,5 +1,6 @@
 const fetchFoodItemsCount = async () => {
-  const response = await fetch("http://localhost:5555/api/food/list");
+    const baseurl = "https://tomato-server-u4f6.onrender.com"
+  const response = await fetch(`${baseurl}/api/food/list`);
   const foodData = await response.json();
   displayCount(foodData);
 };
