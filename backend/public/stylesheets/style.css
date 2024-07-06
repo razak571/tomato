@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+p span {
+  color: tomato;
+  font-weight: bold;
+}
+
+button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10%;
+}
