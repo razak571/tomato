@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 
 // app config
 const app = express();
-const port = process.env.LOCALPORT;
+const port = process.env.PORT;
 // const baseUrl = process.env.BASEURL;
 const baseUrls = process.env.BASEURLS.split(",");
 
