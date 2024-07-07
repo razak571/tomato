@@ -61,7 +61,7 @@ const Footer = () => {
               className="tomato"
               onClick={() => handleRedirect(socialLinks.linkedin)}
             >
-              visit my LinkedIn
+              Visit my LinkedIn
             </li>
           </ul>
         </div>

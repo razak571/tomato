@@ -82,6 +82,7 @@ const StoreContextProvider = (props) => {
     url,
     token,
     setToken,
+    fetchFoodList
   };
 
   return (

@@ -1,13 +1,14 @@
+const btn = document.getElementById("fetchButton");
+
 const fetchFoodItemsCount = async () => {
-    const baseurl = "https://tomato-server-u4f6.onrender.com"
+  // const baseurl = "http://localhost:5555";
+  const baseurl = "https://tomato-server-u4f6.onrender.com";
   const response = await fetch(`${baseurl}/api/food/list`);
   const foodData = await response.json();
   displayCount(foodData);
 };
 
-document
-  .getElementById("fetchButton")
-  .addEventListener("click", fetchFoodItemsCount);
+btn.addEventListener("click", fetchFoodItemsCount);
 
 const displayCount = (data) => {
   const dataDisp = document.getElementById("foodItemsCount");

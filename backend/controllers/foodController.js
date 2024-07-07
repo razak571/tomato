@@ -26,13 +26,11 @@ const addFood = async (req, res) => {
 const listFood = async (req, res) => {
   try {
     const foods = await foodModel.find({});
-    res
-      .status(200)
-      .json({
-        success: true,
-        count: foods.length,
-        data: foods,
-      });
+    res.status(200).json({
+      success: true,
+      count: foods.length,
+      data: foods,
+    });
   } catch (error) {
     console.log(error);
     res.status(500).send({ success: false, message: "Error" });
