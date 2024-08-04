@@ -52,4 +52,8 @@ Tomato is a full stack food delivery **MERN** application. It is fully responsiv
 - <span style="color:tomato">**MongoDB (Atlas Cloud)**</span>: As the database.
 - <span style="color:tomato">**Stripe**</span>: For payment integration.
 
+⭐️ If you like this project, please give it a star!
+
+Created with ❤️ by [Razak Attar](https://github.com/razak571)
+
 #### For more details, feel free to contact me. Thank you.
